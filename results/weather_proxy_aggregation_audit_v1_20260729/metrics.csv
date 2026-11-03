@@ -1,0 +1,12 @@
+method,model,wmape_pct,daily_wmape_p90_pct,daily_wmape_max_pct,champion_eligible
+old_proxy_invalid,extra_trees,5.835216,,,false
+corrected_equal_13_city,extra_trees,5.950182,10.636111,49.088832,false
+pretest_load_weighted,extra_trees,5.904897,10.387530,47.475150,false
+corrected_equal_13_city,hist_gbdt,6.047522,10.507337,51.714155,false
+pretest_load_weighted,hist_gbdt,6.117674,12.565675,50.318478,false
+corrected_equal_13_city,gbdt,6.143442,9.968106,54.246700,false
+pretest_load_weighted,gbdt,6.150343,10.145108,53.159063,false
+calendar_baseline,calendar_similar_day_mean4,5.879244,9.727958,29.033753,true
+industry_proxy,aggregate_weather_ridge,6.300458,10.985902,25.229940,false
+industry_proxy,industry_segment_weather_ridge,6.049036,10.163471,24.601462,false
+industry_proxy_fusion,dynamic_nonnegative_fusion,5.676430,9.864769,29.033753,false

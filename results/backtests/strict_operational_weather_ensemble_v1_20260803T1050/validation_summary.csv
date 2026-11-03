@@ -1,0 +1,2 @@
+﻿model,window,window_start,window_end,target_days,wmape_pct,daily_wmape_p90_pct,daily_wmape_max_pct,point_correlation,median_daily_curve_correlation,p10_daily_curve_correlation,mean_nrmse_pct,mean_shape_wmape_pct,mean_abs_daily_energy_bias_pct,mean_peak_time_error_minutes,mean_abs_peak_load_error_pct
+validation_nonnegative_top5_ensemble,internal_validation,2026-06-01,2026-06-12,12,4.20352768711834,6.371173838205855,10.20979231050831,0.7393238624674502,0.773149681903076,0.3681429411347883,5.306270710836973,3.4829926091035976,2.7967640949310026,337.5,3.751943599837437

@@ -1,0 +1,4 @@
+﻿model,label,window,window_start,window_end,target_days,wmape_pct,daily_wmape_p90_pct,daily_wmape_max_pct,median_daily_curve_correlation,mean_abs_daily_energy_bias_pct
+operational_weather_stable_v1,气象稳健校正模型,full_cycle_after_7_day_warmup,2026-04-08,2026-07-28,112,6.250308713725099,11.180724685814923,35.85931385936564,0.7886647760356335,5.015495909058055
+operational_weather_solar_fusion_v1,多源气象融合模型,full_cycle_after_7_day_warmup,2026-04-08,2026-07-28,112,6.37734938701326,12.53579617180185,35.205685563554425,0.7877558517162548,5.153632033706858
+operational_market_timing_v1,市场时序基准模型,full_cycle_after_7_day_warmup,2026-04-08,2026-07-28,112,6.744930097603007,11.701098578232974,35.51215204814685,0.6530442951686557,5.58700342648488

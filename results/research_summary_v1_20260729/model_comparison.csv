@@ -1,0 +1,19 @@
+﻿track,method,weather_policy,champion_eligible,wmape_pct,daily_wmape_p90_pct,worst_date,notes
+strict,dynamic_nonnegative_fusion,NONE,True,5.701908485745445,10.126493707363146,2026-05-01,10 candidates
+strict,calendar_similar_day_mean4,NONE,True,5.879244460515097,9.7279579099364,2026-05-01,holiday/workday/weekend/adjusted-workday aware
+strict,gbdt,NONE,True,6.422632184475899,10.121987488647749,2026-05-01,calendar_load / residual
+strict,hist_gbdt,NONE,True,6.482274838253846,10.983727126483606,2026-05-01,calendar_load / residual
+strict,same_weekday_mean_4,NONE,True,6.633581001574779,,,deterministic baseline
+strict,topn75_longtail_trend,NONE,True,6.83480747597672,,,HISTORY_ONLY_NO_CONTRACT_EVENT_FEED
+strict,extra_trees,NONE,True,6.921165103796441,12.203258619294813,2026-05-01,calendar_load / residual
+strict,random_forest,NONE,True,7.277882231875286,15.57448305321618,2026-05-01,calendar_load / residual
+strict,d7,NONE,True,7.6436684239836,,,deterministic baseline
+strict,ridge,NONE,True,8.257686895169906,14.573748952810258,2026-05-01,calendar_load / residual
+strict,huber,NONE,True,10.763741837545204,24.441134099450554,2026-05-01,calendar_load / residual
+weather_proxy,dynamic_nonnegative_fusion,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,5.423075066384158,9.435554507934828,2026-05-01,10 candidates
+weather_proxy,extra_trees,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,5.835216086517988,10.038562363298473,2026-05-01,calendar_load_weather_proxy / residual
+weather_proxy,hist_gbdt,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,6.070120580581461,10.517384881525082,2026-05-01,calendar_load_weather_proxy / residual
+weather_proxy,gbdt,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,6.096555234341449,9.73666066230668,2026-05-01,calendar_load_weather_proxy / residual
+weather_proxy,random_forest,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,6.617135448117274,12.648573558973151,2026-05-01,calendar_load_weather_proxy / residual
+weather_proxy,ridge,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,7.248291365175439,13.596095053722149,2026-05-01,calendar_load_weather_proxy / residual
+weather_proxy,huber,RESEARCH_PROXY_UNVERIFIED_ISSUE_TIME,False,9.220285872069049,16.98018478434723,2026-05-01,calendar_load_weather_proxy / residual

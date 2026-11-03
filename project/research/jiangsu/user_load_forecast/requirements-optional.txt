@@ -1,0 +1,2 @@
+# Optional challenger. Core pipeline remains runnable without it.
+xgboost>=2.1,<4
